@@ -1,0 +1,268 @@
+OUTPUT:
+
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+1
+Enter registration number and marks
+1941012777
+99
+Do you want to add new node (1 for yes and 0 for no)
+1
+Enter registration number and marks
+1941012123
+98
+Do you want to add new node (1 for yes and 0 for no)
+0
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+2
+1941012777	99.0
+1941012123	98.0
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+3
+Enter registration number and marks
+1941012456
+96
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+4
+Enter registration number and marks
+1941012789
+95
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+6
+enter element to search
+1941012777
+Found
+enter the marks to be updated
+100
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+5
+Enter location
+1
+Enter registration number and marks
+1941012333
+90
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+10
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+2
+1941012789	95.0
+1941012123	98.0
+1941012777	100.0
+1941012456	96.0
+1941012333	90.0
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+8
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+2
+1941012789	95.0
+1941012123	98.0
+1941012777	100.0
+1941012456	96.0
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+11
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+2
+1941012789	95.0
+1941012123	96.0
+1941012777	98.0
+1941012456	100.0
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+12
+Number of nodes is: 4
+****MENU*****
+0:Exit
+1:Creation
+2:Display
+3:Insert at beg
+4:Insert at end
+5:Insert at specific location
+6:Search
+7:Delete at beg
+8:Delete at end
+9:Delete at specific location
+10:Reverse the list
+11:Sorting the list
+12 Number of nodes present
+Enter the choice
+0
