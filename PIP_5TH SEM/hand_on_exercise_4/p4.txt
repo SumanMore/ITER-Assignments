@@ -1,0 +1,8 @@
+import math
+x=int(input("enter the value of x"))
+n=int(input("enter the value of n"))
+f=1
+for i in range ( 1 , n+1):
+    f=f*i
+res= pow(x,n)/f
+print (res)
