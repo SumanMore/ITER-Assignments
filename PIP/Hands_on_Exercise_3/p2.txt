@@ -1,0 +1,10 @@
+ch=input("enter a character\n")
+ascii_ch=ord(ch)
+if( ascii_ch>=65 and ascii_ch<=90):
+    print(ch , "is upper case letter")
+elif( ascii_ch>=97 and ascii_ch<=122):
+    print(ch , "is lower case letter")
+elif(ascii_ch >=48 and ascii_ch<=57):
+    print(ch, "is a digit")
+else:
+    print(ch,"is special character")
