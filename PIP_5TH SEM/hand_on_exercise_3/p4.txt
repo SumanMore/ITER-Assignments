@@ -1,0 +1,14 @@
+a=(float)(input("Enter the value of a: \n"))
+b=(float)(input("Enter the value of b: \n"))
+c=(float)(input("Enter the value of c: \n"))
+d=(float)(input("Enter the value of c: \n"))
+e=(float)(input("Enter the value of c: \n"))
+f=(float)(input("Enter the value of c: \n"))
+res = (a*d)-(b*c)
+if res==0:
+    print("The equation has no solution")
+    
+else:   
+   x=((e*d)-(b*f))/res
+   y=((a*f)-(e*c))/res
+   print("x=",x ," and y =", y)

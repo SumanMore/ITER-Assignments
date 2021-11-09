@@ -1,0 +1,11 @@
+import math
+    
+x= (float)(input("Enter x coordinate\n"))
+y=(float)(input("Enter y coordinate\n"))
+dis = math.sqrt(math.pow(x,2) + math.pow(y,2))
+if dis<=10:
+    print("Point (" ,x,",",y,") is in the circle");
+    
+else:
+    print("Point (" ,x,",",y,") is  not in the circle");
+    
