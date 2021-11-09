@@ -1,9 +1,0 @@
-rahul=(int)(input("Enter the age of Rahul: \n"))
-ayush=(int)(input("Enter the value of Ayush: \n"))
-ajay=(int)(input("Enter the value of Ajay: \n"))
-if (rahul >= ayush and rahul >= ajay):
-    print("rahul is elder than ayush and ajay");
-elif (ayush >= rahul and ayush >= ajay):
-    print("ayush is elder than rahul and ajay");    
-else:
-    print("ajay is elder than rahul and ayush");
