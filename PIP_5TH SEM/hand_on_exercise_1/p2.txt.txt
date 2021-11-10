@@ -1,0 +1,7 @@
+print("TTTTTTTT\tK      k")
+print("   T    \tK    k")
+print("   T    \tK k")
+print("   T    \tK    ")
+print("   T    \tK k   ")
+print("   T    \tK    k")
+print("   T    \tK      k")
