@@ -1,3 +1,0 @@
-regd_no=1941012777
-year_of_admission=2019
-print("My Regd. No is",regd_no,"and I have taken admission in B.Tech. In ",year_of_admission,".")
