@@ -1,0 +1,6 @@
+mass=float(input("Enter mass "))
+height=float(input("Enter height "))
+mass=0.45359237*mass
+height=0.0254*height
+bmi=mass/(height*height)
+print("BMI= ",bmi)
