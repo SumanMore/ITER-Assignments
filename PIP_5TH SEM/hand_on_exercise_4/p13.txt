@@ -1,0 +1,8 @@
+n=int(input("Enter n: "))
+st=""
+while n!=0:
+    r=n%2
+    st=str(r)+st
+    n//=2
+print(st)    
+    
