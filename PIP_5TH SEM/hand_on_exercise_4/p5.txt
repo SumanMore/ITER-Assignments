@@ -1,0 +1,14 @@
+import math
+x=int(input("enter the value of x "))
+n=int(input("enter the value of n "))
+f=1
+for i in range ( 1 , n+1):
+    f=f*i
+res= math.pow(x,n)/f
+print (res)
+
+
+import math
+n=int(input("Enter n -> "))
+x=int(input("Enter x -> "))
+print("x^n/n! = ",(x**n)/math.factorial(n))
