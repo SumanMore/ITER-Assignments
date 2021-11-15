@@ -1,8 +1,14 @@
 n=int(input("Enter n: "))
-term1=0
-term2=1
-for i in range(n):
-    print(term1,end=" ")
-    sum=term1+term2
-    term1=term2
-    term2=sum
+a=0
+b=1
+count=2
+while(count < n):
+   print(a,b,end=" ")
+   a=a+b
+   b=a+b
+   count=count+2
+if count-n==0:
+  print(a,b,end=" ")
+else
+  print(a)
+ 
