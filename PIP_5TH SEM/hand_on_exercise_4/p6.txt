@@ -9,3 +9,17 @@ while(math.fabs(term)>0.000001):
     term=-(x*x)/(i*(i-1))*term
     tsin=tsin+term
 print('sin(',x,')=',tsin)
+
+
+import math
+p=float(input("Enter the value of p for the expansion of sin p -> "))
+x=math.radians(p)
+i=1
+e=0.000001
+term=x
+tsin=x
+while((math.fabs(term))>e):
+    i=i+2
+    term=(-term*x*x)/((i-1)*i)
+    tsin=tsin+term
+print("The infinite series expansion solution is = ",tsin)
