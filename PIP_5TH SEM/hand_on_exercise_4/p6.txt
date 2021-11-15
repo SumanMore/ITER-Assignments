@@ -23,3 +23,15 @@ while((math.fabs(term))>e):
     term=(-term*x*x)/((i-1)*i)
     tsin=tsin+term
 print("The infinite series expansion solution is = ",tsin)
+
+
+import math
+x=float(input("Enter the value of x in radian "))
+term=x
+tsin=x
+i=1
+while((math.fabs(term))>0.000001):
+    i=i+2
+    term=-(x*x)/((i-1)*i)*term
+    tsin=tsin+term
+print("The infinite series is = ",tsin)
