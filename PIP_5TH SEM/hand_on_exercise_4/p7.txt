@@ -1,0 +1,10 @@
+import math
+x=float(input("Enter the value of x in radian "))
+term=1
+tcos=1
+i=0
+while((math.fabs(term))>0.000001):
+    i=i+2
+    term=-(x*x)/((i-1)*i)*term
+    tcos=tcos+term
+print("The infinite series is = ",tcos)
