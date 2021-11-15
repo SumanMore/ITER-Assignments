@@ -1,0 +1,10 @@
+import math
+x=float(input("Enter the value of x: "))
+term=x
+s=1+x
+i=2
+while((math.fabs(term))> 0.000001):
+    term=term*x/((i-1)*i)
+    s=s+term
+    i=i+2
+print(s)
