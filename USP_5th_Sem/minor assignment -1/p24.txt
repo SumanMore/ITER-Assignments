@@ -1,0 +1,27 @@
+Swap.h
+void swap(int x, int y);
+
+
+swap.c
+#include "swap.h"
+#include <stdio.h>
+
+void swap(int x, int y)
+{
+    x = x + y;
+    y = x - y;
+    x = x - y;
+    printf("swap appears in function: a=%d, b=%d\n", x, y);
+}
+
+main.c
+#include "swap.h"
+#include <stdio.h>
+int main()
+{
+    int a = 10, b = 20;
+    printf("Before swap in main a=%d, b=%d\n", a, b);
+    swap(a, b);
+    printf("after swap in main a=%d, b=%d\n", a, b);
+    return 0;
+}

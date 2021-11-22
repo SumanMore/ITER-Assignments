@@ -1,0 +1,30 @@
+#include <stdio.h>
+void isDivisiblebynine(int n)
+{
+    int s= 0;
+    int num;
+    num=n;
+    while (num > 0)
+    {
+        int r=num%10;
+        printf("%d\n",r);
+        s+=r;
+        num/= 10;
+    }
+    if (s % 9 == 0)
+    {
+        printf("%d is divisible by 9\n", n);
+    }
+    else
+    {
+        printf("%d is not divisible by 9\n", n);
+    }
+}
+int main()
+{
+    int num;
+    printf("Enter an Integer -> ");
+    scanf("%d", &num);
+    isDivisiblebynine(num);
+    return 0;
+}

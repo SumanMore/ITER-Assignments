@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+ 
+  double beg,end,travelled,reimbursement;
+  printf("MILEAGE REIMBURSEMENT CALCULATOR\n");
+  printf("Enter beginning odometer reading=>");
+    scanf("%lf", &beg);
+     printf("Enter ending odometer reading=>");
+    scanf("%lf", &end);
+    travelled=end-beg;
+    reimbursement=0.35*travelled;
+    printf("You traveled %.1lf miles. At 0.35 per mile,\nyour reimbursement is $ %.2lf .\n", travelled, reimbursement);
+}

@@ -1,0 +1,23 @@
+(a) If item is nonzero, then multiply product by item and save the result in product ; otherwise, skip the multiplication. In either case, print the value of product.
+Solution:
+if(item!=0){
+    product=product*item;
+    printf("%d",product);
+}
+else{
+    printf("%d",product);
+}
+(b) Store the absolute difference of x and y in y , where the absolute difference is ( x - y ) or (y - x ), whichever is positive. Do not use the abs or fabs function in your solution.
+Solution:
+if(x>y)
+    y=x-y;
+else
+    y=y-x;
+(c) If x is 0 , add 1 to zero count. If x is negative, add x to minus sum. If x is greater than 0 , add x to plus sum.
+Solution:
+if(x==0)
+    zero_count++;
+else if(x<0)
+    x+minus_sum
+else
+    x+plus_sum
