@@ -1,0 +1,19 @@
+/*
+Programmer - Suman More
+Section - L
+Semester - 5
+Branch - CSE
+*/
+
+#include <stdio.h>
+int main()
+{
+int *p1,*p2,*p3;
+int x=89;
+p1=&x;
+printf("%d\n",*p1);
+p2=&x;
+printf("%d\n",*p2);
+p3=&x;
+printf("%d\n",*p3);
+}

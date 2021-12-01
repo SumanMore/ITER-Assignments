@@ -1,0 +1,26 @@
+/* 
+Programmer Suman More
+Secton : L
+Semester: 5
+Branch: CSE
+
+Program Description : 
+
+*/
+#include<stdio.h>
+int main() 
+{
+int a=2, b=3;
+
+printf("Address of  a before swap= %p\n",&a);
+printf("Address of  b before swap= %p\n",&b);
+
+a=a+b;
+b=a-b;
+a=a-b;
+
+printf("Address of  a after swap= %p\n",&a);
+printf("Address of  b after swap= %p\n",&b);
+
+return 0;
+}

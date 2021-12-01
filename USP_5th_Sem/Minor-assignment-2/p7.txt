@@ -1,0 +1,19 @@
+/*
+Programmer - Suman More
+Section - L
+Semester - 5
+Branch - CSE
+*/
+
+#include <stdio.h>
+int main()
+{
+float *p1,*p2,*p3;
+float x=8.6;
+p1=&x;
+printf("%.1f\n",*p1);
+p2=&x;
+printf("%.1f\n",*p2);
+p3=&x;
+printf("%.1f\n",*p3);
+}

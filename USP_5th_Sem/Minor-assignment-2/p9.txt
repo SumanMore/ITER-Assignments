@@ -1,0 +1,22 @@
+/*
+Programmer - Suman More
+Section - L
+Semester - 5
+Branch - CSE
+*/
+
+#include <stdio.h>
+int main()
+{
+int *ptr1,*ptr2,*ptr3;
+int a=12,b=52,c=8;
+a=a+10;
+ptr1=&a;
+printf("%d\n",*ptr1);
+b=b+10;
+ptr2=&b;
+printf("%d\n",*ptr2);
+c=c+10;
+ptr3=&c;
+printf("%d\n",*ptr3);
+}

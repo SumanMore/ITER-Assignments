@@ -1,0 +1,21 @@
+/*
+Programmer - Suman More
+Section - L
+Semester - 5
+Branch - CSE
+*/
+
+#include <stdio.h>
+int main()
+{
+int x=45;
+int y=12;
+int z=23;
+int *p;
+p=&x;
+printf("%d\n",*p);
+p=&y;
+printf("%d\n",*p);
+p=&z;
+printf("%d\n",*p);
+}

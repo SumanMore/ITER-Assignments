@@ -1,0 +1,21 @@
+/*
+Programmer - Suman More
+Section - L
+Semester - 5
+Branch - CSE
+*/
+
+#include <stdio.h>
+int main()
+{
+float x=6.7;
+float y=1.2;
+float z=2.3;
+float *p;
+p=&x;
+printf("%.1f\n",*p);
+p=&y;
+printf("%.1f\n",*p);
+p=&z;
+printf("%.1f\n",*p);
+}

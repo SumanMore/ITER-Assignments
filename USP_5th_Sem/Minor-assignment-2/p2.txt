@@ -1,0 +1,20 @@
+/* 
+Programmer Suman More
+Secton : L
+Semester: 5
+Branch: L
+
+Program Description : 
+
+*/
+#include<stdio.h>
+int main() 
+{
+int la=345;
+double Fb=4.5;
+char Chvar='Z';
+printf("la= %d  Address = %p\n",la , &la);
+printf("Fb= %.1lf Address = %p\n",Fb,&Fb);
+printf("Chvar= %c Address = %p\n",Chvar, &Chvar);
+return 0;
+}

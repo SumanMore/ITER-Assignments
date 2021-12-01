@@ -1,0 +1,16 @@
+/*
+Programmer - Suman More
+Section - L
+Semester - 5
+Branch - CSE
+*/
+
+#include <stdio.h>
+int main()
+{
+int Ia=345;
+float Fb=4.5;
+char Chvar='Z';
+printf("%d\n%.1f\n%c\n", Ia,Fb,Chvar);
+return 0;
+}
