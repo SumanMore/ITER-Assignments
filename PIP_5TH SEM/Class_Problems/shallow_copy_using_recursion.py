@@ -1,4 +1,5 @@
 
+
 def copy(list1,list2=[]):
     if list1==[]:
         return list2
@@ -8,4 +9,7 @@ def copy(list1,list2=[]):
     return list2    
 list1=[1,2,3,4,8]
 list2=copy(list1)
+print(list2)
+list1[4]=0
+print(list1)
 print(list2)
